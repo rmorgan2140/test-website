@@ -36,7 +36,7 @@ body {
 }
 
 #flags {
-  width: 40%;
+  width: 400px;
   display: inline-block;
   float: left;
 }
@@ -77,8 +77,8 @@ body {
 #city-skyline {
   position: relative;
   float: left;
-  width: 50%;
-  height: 180px;
+  width: 400px;
+  height: 200px;
   border: 1px solid #ccc;
   margin-left: 20px;
   border-radius: 8px;
