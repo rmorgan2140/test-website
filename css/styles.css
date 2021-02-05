@@ -3,6 +3,11 @@ body {
   background-color: white;
   color: #003e51}
 
+.container{
+  max-width: 960px;
+  margin: 0 auto;
+}
+
 .logo {
   width: 48px;
   position: relative;
@@ -36,7 +41,7 @@ body {
 }
 
 #flags {
-  width: 400px;
+  width: 40%;
   display: inline-block;
   float: left;
 }
@@ -77,8 +82,8 @@ body {
 #city-skyline {
   position: relative;
   float: left;
-  width: 400px;
-  height: 200px;
+  width: 50%;
+  height: 300px;
   border: 1px solid #ccc;
   margin-left: 20px;
   border-radius: 8px;
