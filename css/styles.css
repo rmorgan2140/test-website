@@ -44,14 +44,20 @@ body {
 
 #flags {
   width: 40%;
+  height: 420px;
+  overflow-y: scroll;
   display: inline-block;
   float: left;
 }
 
 .flag{
+   width: 95%;
    border: 1px solid #ccc;
    border-radius: 8px;
    margin-bottom: 8px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
 }
 
 .flag:hover{
@@ -80,14 +86,45 @@ body {
   margin-right: auto;
 }
 
+#atwn {
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#erpa {
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#hburg {
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#skyline-fact-container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 420px;
+  width: 50%;
+  overflow-y: scroll;
+}
+
 
 #city-skyline {
-  position: relative;
-  float: left;
-  width: 50%;
-  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 0px;
+  width: 90%;
+  height: 275px;
   border: 1px solid #ccc;
-  margin-left: 20px;
   border-radius: 8px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -95,31 +132,31 @@ body {
 
 
 #city-name {
-  position: relative;
-  float: left;
-  width: 50%;
-  height: 10px;
-  margin-left: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 12px;
+  padding-bottom: 20px;
+  width: 90%;
 }
 
 .city-text {
   font-family: Helvetica, sans-serif;
-  font-variant: small-caps;
+  font-variant: bold;
   text-align: left;
-  font-size: 32px;
+  font-size: 1.8rem;
 }
 
 #city-fact {
-  position: relative;
-  float: left;
-  width: 50%;
-  padding: 20px;
-  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
 }
 
 .city-facts {
   font-family: Helvetica, sans-serif;
   text-align: left;
-  font-size: 24px;
+  font-size: 1.2rem;
   font-style: italic;
 }
