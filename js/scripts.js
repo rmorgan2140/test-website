@@ -37,6 +37,6 @@ $("#erie").click(function(){
 });
 
 $("#harrisburg").click(function(){
-  $(".city-text").text("Harrisburg - 49,000");
+  $(".city-text").text("Harrisburg - Pop. 49,000");
 	$(".city-facts").text("Harrisburg almost became the capital of United States in the 1790s, but instead remains the capital of Pennsylvania.");
 });
